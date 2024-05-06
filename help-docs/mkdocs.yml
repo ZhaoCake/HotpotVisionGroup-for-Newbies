@@ -1,0 +1,53 @@
+site_name: 火锅战队视觉组考核辅助
+site_url: https://zhaocake.github.io/
+nav:
+    - 首页: index.md
+    - 基础模块: ./basic-modules/index.md
+    - 进阶模块: ./advanced-modules/index.md
+    - 娱乐模块: ./happy-modules/index.md
+    
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.instant.search
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.prune
+    - toc.follow
+    - toc.integrate
+    - navigation.top
+
+  palette:
+    # - primary: deep orange
+    # - accent: deep orange
+
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      primary: deep orange
+      accent: deep orange
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      primary: deep orange
+      accent: deep orange
+      scheme: default 
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      primary: deep orange
+      accent: deep orange
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
